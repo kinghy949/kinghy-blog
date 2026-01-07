@@ -1,0 +1,42 @@
+name: 部署博客到 GitHub Pages
+
+on:
+  push:
+    branches:
+      - main  # 当推送到 main 分支时触发
+
+permissions:
+  contents: write  # 允许写入内容
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: 检出代码
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # 获取完整历史记录
+
+      - name: 设置 Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm  # 缓存 npm 依赖
+
+      - name: 安装依赖
+        run: npm ci
+
+      - name: 构建博客
+        env:
+          NODE_OPTIONS: --max_old_space_size=8192
+        run: npm run docs:build
+
+      - name: 部署到 GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        if: github.ref == 'refs/heads/main'
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: docs/.vuepress/dist
+          # 如果部署在子路径，取消注释并设置 cname
+          # cname: your-domain.com
