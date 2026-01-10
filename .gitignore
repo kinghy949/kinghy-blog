@@ -9,3 +9,4 @@ docs/.vuepress/.cache/
 # OS files
 .DS_Store
 .idea/
+.dist
