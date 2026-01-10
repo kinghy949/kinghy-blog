@@ -1,14 +1,14 @@
 export const redirects = JSON.parse("{}")
 
 export const routes = Object.fromEntries([
-  ["/intro.html", { loader: () => import(/* webpackChunkName: "intro.html" */"D:/studySpace/kinghy-blog/src/.vuepress/.temp/pages/intro.html.js"), meta: {"cover":"/assets/images/cover3.jpg","excerpt":"\n<p>将你的个人介绍和档案放置在此处。</p>\n","readingTime":{"minutes":0.08,"words":23},"title":"介绍页","icon":"circle-info","type":"article"} }],
+  ["/intro.html", { loader: () => import(/* webpackChunkName: "intro.html" */"D:/studySpace/kinghy-blog/src/.vuepress/.temp/pages/intro.html.js"), meta: {"date":1767782512000,"cover":"/assets/images/cover3.jpg","excerpt":"\n<p>将你的个人介绍和档案放置在此处。</p>\n","readingTime":{"minutes":0.08,"words":23},"title":"介绍页","icon":"circle-info","type":"article"} }],
   ["/", { loader: () => import(/* webpackChunkName: "index.html" */"D:/studySpace/kinghy-blog/src/.vuepress/.temp/pages/index.html.js"), meta: {"title":"博客主页","icon":"house"} }],
-  ["/demo/disable.html", { loader: () => import(/* webpackChunkName: "demo_disable.html" */"D:/studySpace/kinghy-blog/src/.vuepress/.temp/pages/demo/disable.html.js"), meta: {"category":["使用指南"],"tag":["禁用"],"excerpt":"<p>你可以通过设置页面的 Frontmatter，在页面禁用功能与布局。</p>\n","readingTime":{"minutes":0.43,"words":128},"title":"布局与功能禁用","icon":"gears","order":4,"type":"article"} }],
-  ["/demo/encrypt.html", { loader: () => import(/* webpackChunkName: "demo_encrypt.html" */"D:/studySpace/kinghy-blog/src/.vuepress/.temp/pages/demo/encrypt.html.js"), meta: {"category":["使用指南"],"tag":["加密"],"isEncrypted":true,"readingTime":{"minutes":0.51,"words":154},"title":"密码加密的文章","icon":"lock","type":"article"} }],
-  ["/demo/layout.html", { loader: () => import(/* webpackChunkName: "demo_layout.html" */"D:/studySpace/kinghy-blog/src/.vuepress/.temp/pages/demo/layout.html.js"), meta: {"category":["指南"],"tag":["布局"],"excerpt":"<p>布局包括:</p>\n<ul>\n<li><a href=\"https://theme-hope.vuejs.press/zh/guide/layout/navbar.html\" target=\"_blank\" rel=\"noopener noreferrer\">导航栏</a></li>\n<li><a href=\"https://theme-hope.vuejs.press/zh/guide/layout/sidebar.html\" target=\"_blank\" rel=\"noopener noreferrer\">侧边栏</a></li>\n<li><a href=\"https://theme-hope.vuejs.press/zh/guide/layout/footer.html\" target=\"_blank\" rel=\"noopener noreferrer\">页脚</a></li>\n</ul>","readingTime":{"minutes":0.53,"words":159},"title":"布局","icon":"object-group","order":2,"type":"article"} }],
-  ["/demo/markdown.html", { loader: () => import(/* webpackChunkName: "demo_markdown.html" */"D:/studySpace/kinghy-blog/src/.vuepress/.temp/pages/demo/markdown.html.js"), meta: {"category":["使用指南"],"tag":["Markdown"],"excerpt":"<p>VuePress 主要从 Markdown 文件生成页面。因此，你可以使用它轻松生成文档或博客站点。</p>\n<p>你需要创建并编写 Markdown，以便 VuePress 可以根据文件结构将它们转换为不同的页面。</p>\n","readingTime":{"minutes":3.13,"words":938},"title":"Markdown 展示","icon":"fa6-brands:markdown","order":2,"type":"article"} }],
+  ["/demo/disable.html", { loader: () => import(/* webpackChunkName: "demo_disable.html" */"D:/studySpace/kinghy-blog/src/.vuepress/.temp/pages/demo/disable.html.js"), meta: {"date":1767782512000,"category":["使用指南"],"tag":["禁用"],"excerpt":"<p>你可以通过设置页面的 Frontmatter，在页面禁用功能与布局。</p>\n","readingTime":{"minutes":0.43,"words":128},"title":"布局与功能禁用","icon":"gears","order":4,"type":"article"} }],
+  ["/demo/encrypt.html", { loader: () => import(/* webpackChunkName: "demo_encrypt.html" */"D:/studySpace/kinghy-blog/src/.vuepress/.temp/pages/demo/encrypt.html.js"), meta: {"date":1767782512000,"category":["使用指南"],"tag":["加密"],"isEncrypted":true,"readingTime":{"minutes":0.51,"words":154},"title":"密码加密的文章","icon":"lock","type":"article"} }],
+  ["/demo/layout.html", { loader: () => import(/* webpackChunkName: "demo_layout.html" */"D:/studySpace/kinghy-blog/src/.vuepress/.temp/pages/demo/layout.html.js"), meta: {"date":1767782512000,"category":["指南"],"tag":["布局"],"excerpt":"<p>布局包括:</p>\n<ul>\n<li><a href=\"https://theme-hope.vuejs.press/zh/guide/layout/navbar.html\" target=\"_blank\" rel=\"noopener noreferrer\">导航栏</a></li>\n<li><a href=\"https://theme-hope.vuejs.press/zh/guide/layout/sidebar.html\" target=\"_blank\" rel=\"noopener noreferrer\">侧边栏</a></li>\n<li><a href=\"https://theme-hope.vuejs.press/zh/guide/layout/footer.html\" target=\"_blank\" rel=\"noopener noreferrer\">页脚</a></li>\n</ul>","readingTime":{"minutes":0.53,"words":159},"title":"布局","icon":"object-group","order":2,"type":"article"} }],
+  ["/demo/markdown.html", { loader: () => import(/* webpackChunkName: "demo_markdown.html" */"D:/studySpace/kinghy-blog/src/.vuepress/.temp/pages/demo/markdown.html.js"), meta: {"date":1767782512000,"category":["使用指南"],"tag":["Markdown"],"excerpt":"<p>VuePress 主要从 Markdown 文件生成页面。因此，你可以使用它轻松生成文档或博客站点。</p>\n<p>你需要创建并编写 Markdown，以便 VuePress 可以根据文件结构将它们转换为不同的页面。</p>\n","readingTime":{"minutes":3.13,"words":938},"title":"Markdown 展示","icon":"fa6-brands:markdown","order":2,"type":"article"} }],
   ["/demo/page.html", { loader: () => import(/* webpackChunkName: "demo_page.html" */"D:/studySpace/kinghy-blog/src/.vuepress/.temp/pages/demo/page.html.js"), meta: {"author":"Ms.Hope","date":1577836800000,"category":["使用指南"],"tag":["页面配置","使用指南"],"sticky":true,"cover":"/assets/images/cover1.jpg","excerpt":"<p><code>more</code> 注释之前的内容被视为文章摘要。</p>\n","readingTime":{"minutes":1.76,"words":529},"title":"页面配置","icon":"file","order":3,"type":"article"} }],
-  ["/demo/", { loader: () => import(/* webpackChunkName: "demo_index.html" */"D:/studySpace/kinghy-blog/src/.vuepress/.temp/pages/demo/index.html.js"), meta: {"category":["使用指南"],"readingTime":{"minutes":0.07,"words":22},"title":"主要功能与配置演示","icon":"laptop-code","type":"article"} }],
+  ["/demo/", { loader: () => import(/* webpackChunkName: "demo_index.html" */"D:/studySpace/kinghy-blog/src/.vuepress/.temp/pages/demo/index.html.js"), meta: {"date":1767782512000,"category":["使用指南"],"readingTime":{"minutes":0.07,"words":22},"title":"主要功能与配置演示","icon":"laptop-code","type":"article"} }],
   ["/posts/cherry.html", { loader: () => import(/* webpackChunkName: "posts_cherry.html" */"D:/studySpace/kinghy-blog/src/.vuepress/.temp/pages/posts/cherry.html.js"), meta: {"date":1641686400000,"category":["樱桃"],"tag":["红","小","圆"],"excerpt":"\n<h2>标题 2</h2>\n<p>这里是内容。</p>\n<h3>标题 3</h3>\n<p>这里是内容。</p>\n","readingTime":{"minutes":0.11,"words":33},"title":"樱桃","icon":"pen-to-square","type":"article"} }],
   ["/posts/dragonfruit.html", { loader: () => import(/* webpackChunkName: "posts_dragonfruit.html" */"D:/studySpace/kinghy-blog/src/.vuepress/.temp/pages/posts/dragonfruit.html.js"), meta: {"date":1641772800000,"category":["火龙果","水果"],"tag":["红","大"],"excerpt":"\n<h2>标题 2</h2>\n<p>这里是内容。</p>\n<h3>标题 3</h3>\n<p>这里是内容。</p>\n","readingTime":{"minutes":0.12,"words":36},"title":"火龙果","icon":"pen-to-square","type":"article"} }],
   ["/posts/strawberry.html", { loader: () => import(/* webpackChunkName: "posts_strawberry.html" */"D:/studySpace/kinghy-blog/src/.vuepress/.temp/pages/posts/strawberry.html.js"), meta: {"date":1641859200000,"category":["水果","草莓"],"tag":["红","小"],"excerpt":"\n<h2>标题 2</h2>\n<p>这里是内容。</p>\n<h3>标题 3</h3>\n<p>这里是内容。</p>\n","readingTime":{"minutes":0.11,"words":34},"title":"草莓","icon":"pen-to-square","type":"article"} }],
@@ -53,20 +53,3 @@ export const routes = Object.fromEntries([
   ["/star/", { loader: () => import(/* webpackChunkName: "star_index.html" */"D:/studySpace/kinghy-blog/src/.vuepress/.temp/pages/star/index.html.js"), meta: {"title":"星标","index":false} }],
   ["/timeline/", { loader: () => import(/* webpackChunkName: "timeline_index.html" */"D:/studySpace/kinghy-blog/src/.vuepress/.temp/pages/timeline/index.html.js"), meta: {"title":"时间轴","index":false} }],
 ]);
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updateRoutes) {
-    __VUE_HMR_RUNTIME__.updateRoutes(routes)
-  }
-  if (__VUE_HMR_RUNTIME__.updateRedirects) {
-    __VUE_HMR_RUNTIME__.updateRedirects(redirects)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ routes, redirects }) => {
-    __VUE_HMR_RUNTIME__.updateRoutes(routes)
-    __VUE_HMR_RUNTIME__.updateRedirects(redirects)
-  })
-}
