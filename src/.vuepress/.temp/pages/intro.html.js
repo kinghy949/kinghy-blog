@@ -1,3 +1,16 @@
 import comp from "D:/studySpace/kinghy-blog/src/.vuepress/.temp/pages/intro.html.vue"
-const data = JSON.parse("{\"path\":\"/intro.html\",\"title\":\"介绍页\",\"lang\":\"zh-CN\",\"frontmatter\":{\"icon\":\"circle-info\",\"cover\":\"/assets/images/cover3.jpg\",\"description\":\"介绍页 将你的个人介绍和档案放置在此处。\",\"head\":[[\"script\",{\"type\":\"application/ld+json\"},\"{\\\"@context\\\":\\\"https://schema.org\\\",\\\"@type\\\":\\\"Article\\\",\\\"headline\\\":\\\"介绍页\\\",\\\"image\\\":[\\\"https://mister-hope.github.io/kinghy-blog/assets/images/cover3.jpg\\\"],\\\"dateModified\\\":\\\"2026-01-07T10:41:52.000Z\\\",\\\"author\\\":[{\\\"@type\\\":\\\"Person\\\",\\\"name\\\":\\\"Mr.Hope\\\",\\\"url\\\":\\\"https://mister-hope.com\\\"}]}\"],[\"meta\",{\"property\":\"og:url\",\"content\":\"https://mister-hope.github.io/kinghy-blog/intro.html\"}],[\"meta\",{\"property\":\"og:site_name\",\"content\":\"王海洋的博客\"}],[\"meta\",{\"property\":\"og:title\",\"content\":\"介绍页\"}],[\"meta\",{\"property\":\"og:description\",\"content\":\"介绍页 将你的个人介绍和档案放置在此处。\"}],[\"meta\",{\"property\":\"og:type\",\"content\":\"article\"}],[\"meta\",{\"property\":\"og:image\",\"content\":\"https://mister-hope.github.io/kinghy-blog/assets/images/cover3.jpg\"}],[\"meta\",{\"property\":\"og:locale\",\"content\":\"zh-CN\"}],[\"meta\",{\"property\":\"og:updated_time\",\"content\":\"2026-01-07T10:41:52.000Z\"}],[\"meta\",{\"name\":\"twitter:card\",\"content\":\"summary_large_image\"}],[\"meta\",{\"name\":\"twitter:image:src\",\"content\":\"https://mister-hope.github.io/kinghy-blog/assets/images/cover3.jpg\"}],[\"meta\",{\"name\":\"twitter:image:alt\",\"content\":\"介绍页\"}],[\"meta\",{\"property\":\"article:modified_time\",\"content\":\"2026-01-07T10:41:52.000Z\"}]]},\"git\":{\"createdTime\":1767782512000,\"updatedTime\":1767782512000,\"contributors\":[{\"name\":\"wanghaiyang\",\"username\":\"wanghaiyang\",\"email\":\"wanghaiyang@baiwang.com\",\"commits\":1,\"url\":\"https://github.com/wanghaiyang\"}]},\"readingTime\":{\"minutes\":0.08,\"words\":23},\"filePathRelative\":\"intro.md\",\"excerpt\":\"\\n<p>将你的个人介绍和档案放置在此处。</p>\\n\",\"autoDesc\":true}")
+const data = JSON.parse("{\"path\":\"/intro.html\",\"title\":\"个人简介\",\"lang\":\"zh-CN\",\"frontmatter\":{\"icon\":\"circle-info\",\"cover\":\"/assets/images/cover3.jpg\",\"description\":\"个人简介 基本信息 性别：男 一名Java服务端开发工程师 年龄：24岁 性格开朗，乐于助人 学历经历 本科：北方民族大学 软件工程 联系方式 邮箱：kinghy949@163.com Q Q: 470527375\"},\"readingTime\":{\"minutes\":0.26,\"words\":77},\"filePathRelative\":\"intro.md\",\"excerpt\":\"\\n<h2>基本信息</h2>\\n<ul>\\n<li>性别：男</li>\\n<li>一名Java服务端开发工程师</li>\\n<li>年龄：24岁</li>\\n<li>性格开朗，乐于助人</li>\\n</ul>\\n<h2>学历经历</h2>\\n<ul>\\n<li>本科：北方民族大学 软件工程</li>\\n</ul>\\n<h2>联系方式</h2>\\n<ul>\\n<li>邮箱：<a href=\\\"mailto:kinghy949@163.com\\\" target=\\\"_blank\\\" rel=\\\"noopener noreferrer\\\">kinghy949@163.com</a></li>\\n<li>Q Q: <a href=\\\"https://wpa.qq.com/msgrd?v=3&amp;uin=470527375&amp;site=qq&amp;menu=yes\\\" target=\\\"_blank\\\" rel=\\\"noopener noreferrer\\\">470527375</a></li>\\n</ul>\",\"autoDesc\":true}")
 export { comp, data }
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
+}

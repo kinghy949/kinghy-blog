@@ -7,8 +7,8 @@ export default hopeTheme({
   hostname: "https://mister-hope.github.io",
 
   author: {
-    name: "Mr.Hope",
-    url: "https://mister-hope.com",
+    name: "王海洋",
+    url: "https://kinghy949.github.io/kinghy-blog/",
   },
 
   logo: "https://theme-hope-assets.vuejs.press/logo.svg",
@@ -29,7 +29,7 @@ export default hopeTheme({
 
   // 博客相关
   blog: {
-    description: "一个前端开发者",
+    description: "一个Java后端开发者",
     intro: "/intro.html",
     medias: {
       BiliBili: "https://space.bilibili.com/477931625?spm_id_from=333.1007.0.0",
