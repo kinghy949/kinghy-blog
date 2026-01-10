@@ -99,7 +99,7 @@ systemctl reload nginx
    
    编辑 `docs/.vuepress/config.js`：
    ```javascript
-   base: '/your-repo-name/',  // 替换为你的仓库名
+   base: '/your-repo-name/' // 替换为你的仓库名
    ```
 
 2. **推送代码到 GitHub**
