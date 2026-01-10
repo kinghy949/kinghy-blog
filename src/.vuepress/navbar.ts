@@ -2,47 +2,35 @@ import { navbar } from "vuepress-theme-hope";
 
 export default navbar([
   "/",
-  "/demo/",
   {
     text: "博文",
     icon: "pen-to-square",
-    prefix: "/posts/",
+    prefix: "/",
     children: [
       {
-        text: "测试1",
+        text: "工具",
         icon: "pen-to-square",
-        prefix: "test/",
+        prefix: "aitools/",
         children: [
-          { text: "测试1-1", icon: "pen-to-square", link: "1" },
-          { text: "测试1-1", icon: "pen-to-square", link: "2" },
-          "3",
-          "4",
+          { text: "Qoder使用感受", icon: "pen-to-square", link: "qoderUseFeel" },
         ],
       },
-      {
-        text: "香蕉",
-        icon: "pen-to-square",
-        prefix: "banana/",
-        children: [
-          {
-            text: "香蕉 1",
-            icon: "pen-to-square",
-            link: "1",
-          },
-          {
-            text: "香蕉 2",
-            icon: "pen-to-square",
-            link: "2",
-          },
-          "3",
-          "4",
-        ],
-      },
-      { text: "樱桃", icon: "pen-to-square", link: "cherry" },
-      { text: "火龙果", icon: "pen-to-square", link: "dragonfruit" },
-      "tomato",
-      "strawberry",
     ],
+  },
+  {
+    text: "分类",
+    icon: "laptop-code",
+    link: "/category/",
+  },
+  {
+    text: "标签",
+    icon: "tag",
+    link: "/tag/",
+  },
+  {
+    text: "时间轴",
+    icon: "timeline",
+    link: "/timeline/",
   },
   {
     text: "V2 文档",
