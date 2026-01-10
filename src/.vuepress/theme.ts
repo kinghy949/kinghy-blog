@@ -38,10 +38,6 @@ export default hopeTheme({
       Gmail: "why470527375@gmail.com",
       Qzone: "https://470527375.qzone.qq.com/",
 
-      VuePressThemeHope: {
-        icon: "https://theme-hope-assets.vuejs.press/logo.svg",
-        link: "https://theme-hope.vuejs.press",
-      },
     },
   },
 
