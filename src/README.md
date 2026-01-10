@@ -3,10 +3,10 @@ home: true
 layout: Blog
 icon: house
 title: 博客主页
-heroImage: https://theme-hope-assets.vuejs.press/logo.svg
-heroText: 你博客的名称
+heroImage: .vuepress/public/assets/images/logo.png
+heroText: 王海洋的博客
 heroFullScreen: true
-tagline: 你可以在这里放置你的口号与标语
+tagline: 曾经阔气的要复古，正在阔气的要保持现状，未曾阔气的要革新，大抵如此，大抵。 --鲁迅
 projects:
   - icon: folder-open
     name: 项目名称
