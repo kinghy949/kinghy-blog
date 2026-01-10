@@ -95,7 +95,7 @@ systemctl reload nginx
 
 ### 快速步骤
 
-1. **修改 base 路径**（如果仓库名不是 `blog-kinghy`）
+1. **修改 base 路径**（如果仓库名不是 `kinghy-blog`）
    
    编辑 `docs/.vuepress/config.js`：
    ```javascript
