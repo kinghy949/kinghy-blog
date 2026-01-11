@@ -5,8 +5,6 @@ import { h } from "vue"
 import { resolveComponent } from "vue"
 import { Blog, BloggerInfo, SocialMedias, setupBlog } from "D:/studySpace/kinghy-blog/node_modules/vuepress-theme-hope/lib/bundle/exports/blog.js";
 import "D:/studySpace/kinghy-blog/node_modules/vuepress-theme-hope/lib/bundle/styles/blog/bundle.scss";
-import { GlobalEncrypt, LocalEncrypt } from "D:/studySpace/kinghy-blog/node_modules/vuepress-theme-hope/lib/bundle/exports/encrypt.js";
-import "D:/studySpace/kinghy-blog/node_modules/vuepress-theme-hope/lib/bundle/styles/encrypt/bundle.scss"
 
 import "D:/studySpace/kinghy-blog/node_modules/@vuepress/helper/lib/client/styles/colors.css";
 import "D:/studySpace/kinghy-blog/node_modules/@vuepress/helper/lib/client/styles/normalize.css";
@@ -41,8 +39,6 @@ export default {
 
     app.component("BloggerInfo", BloggerInfo);
     app.component("SocialMedias", SocialMedias);
-    app.component("GlobalEncrypt", GlobalEncrypt);
-    app.component("LocalEncrypt", LocalEncrypt);
   },
   setup: () => {
     setupDarkMode();
