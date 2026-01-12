@@ -11,7 +11,7 @@ export default hopeTheme({
     url: "https://kinghy949.github.io/kinghy-blog/",
   },
 
-  logo: ".vuepress/public/assets/images/logo.png",
+  logo: "/assets/images/logo.png",
 
   repo: "kinghy949/kinghy-blog",
 
