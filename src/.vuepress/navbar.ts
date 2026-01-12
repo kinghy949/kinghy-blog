@@ -13,6 +13,7 @@ export default navbar([
         prefix: "aitools/",
         children: [
           { text: "Qoder使用感受", icon: "pen-to-square", link: "qoderUseFeel" },
+          { text: "Gemini使用教程", icon: "pen-to-square", link: "gemini" },
         ],
       },
     ],

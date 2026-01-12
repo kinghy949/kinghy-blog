@@ -3,11 +3,10 @@ icon: pen-to-square
 date: 2026-01-10
 cover: /aitools/images/aitools1.png
 category:
-  - agent
+  - AI
   - tools
 tag:
-  - 人工智能
-  - 辅助编程
+  - AI
   - 工具
 star: 10
 ---
