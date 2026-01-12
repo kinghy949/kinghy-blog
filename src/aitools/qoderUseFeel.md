@@ -1,7 +1,7 @@
 ---
 icon: pen-to-square
 date: 2026-01-10
-cover: /aitools/images/aitools1.png
+cover: /assets/images/aitools/aitools1.png
 category:
   - AI
   - tools
@@ -14,7 +14,7 @@ star: 10
 
 
 # Qoder 是什么
-![Qoder](./images/aitools2.png "Qoder")
+![Qoder](/assets/images/aitools/aitools2.png "Qoder")
 Qoder（/ˈkoʊdər/）是一款面向真实软件开发的 Agentic 编码平台。通过增强上下文工程与智能体无缝结合，全面理解你的代码库，并以系统化方式推进开发任务。
 
 它提供代码智能生成、智能问答、多文件修改、编程智能体等能力，思考更深入、编码更高效、构建更出色，为开发者带来高效、流畅的编码体验。
@@ -36,7 +36,7 @@ Repo Wiki 会为你的项目自动生成结构化文档，并持续跟踪代码�
 当你在开发过程中查询知识点、代码解释、增加功能特性时，Repo Wiki 会深入分析项目结构和代码实现，结合Repo Wiki 与上下文信息，给出更准确、详细的解答和文档支持，并且让智能体具备更深入代码库认知。
 
 ### Wiki 生成
-![Wiki 生成](./images/qoder2.png "Wiki 生成")
+![Wiki 生成](/assets/images/aitools/qoder2.png "Wiki 生成")
 
 仓库中的 Wiki 不是静态的——它会与代码保持同步。
 
@@ -52,7 +52,7 @@ Wiki 会在三种关键情况下更新。了解它们的触发时机与原因，
 
 
 ## 第二个是 Quest Mode
-![Quest Mode](./images/qoder1.png "Quest Mode")
+![Quest Mode](/assets/images/aitools/qoder1.png "Quest Mode")
 Quest Mode 是一项 AI 辅助的编程功能，专为复杂、长时运行的开发任务而设计。你只需用自然语言描述需求，便可将功能开发、缺陷修复、重构与测试等任务交给 AI 执行，从而大幅提升开发效率。
 
 Quest Mode 现已支持本地和远程两种执行模式，可以根据场景选择最符合你需求的选项。

@@ -1,6 +1,6 @@
 <template><div><p>订阅了 Qoder 之后，我想通过这篇文章分享一些个人使用心得和感受。</p>
 <h1 id="qoder-是什么" tabindex="-1"><a class="header-anchor" href="#qoder-是什么"><span>Qoder 是什么</span></a></h1>
-<p><img src="@source/aitools/images/aitools2.png" alt="Qoder" title="Qoder" loading="lazy"><br>
+<p><img src="/assets/images/aitools/aitools2.png" alt="Qoder" title="Qoder" loading="lazy"><br>
 Qoder（/ˈkoʊdər/）是一款面向真实软件开发的 Agentic 编码平台。通过增强上下文工程与智能体无缝结合，全面理解你的代码库，并以系统化方式推进开发任务。</p>
 <p>它提供代码智能生成、智能问答、多文件修改、编程智能体等能力，思考更深入、编码更高效、构建更出色，为开发者带来高效、流畅的编码体验。</p>
 <p>其实就是是阿里对标Cursor而打造的一款编码产品</p>
@@ -14,7 +14,7 @@ Qoder（/ˈkoʊdər/）是一款面向真实软件开发的 Agentic 编码平台
 <p>Repo Wiki 会为你的项目自动生成结构化文档，并持续跟踪代码与文档的变更。</p>
 <p>当你在开发过程中查询知识点、代码解释、增加功能特性时，Repo Wiki 会深入分析项目结构和代码实现，结合Repo Wiki 与上下文信息，给出更准确、详细的解答和文档支持，并且让智能体具备更深入代码库认知。</p>
 <h3 id="wiki-生成" tabindex="-1"><a class="header-anchor" href="#wiki-生成"><span>Wiki 生成</span></a></h3>
-<figure><img src="@source/aitools/images/qoder2.png" alt="Wiki 生成" tabindex="0" loading="lazy"><figcaption>Wiki 生成</figcaption></figure>
+<figure><img src="/assets/images/aitools/qoder2.png" alt="Wiki 生成" tabindex="0" loading="lazy"><figcaption>Wiki 生成</figcaption></figure>
 <p>仓库中的 Wiki 不是静态的——它会与代码保持同步。</p>
 <p>Wiki 会在三种关键情况下更新。了解它们的触发时机与原因，有助于你保持 Wiki 的实时更新。</p>
 <ul>
@@ -27,7 +27,7 @@ Qoder（/ˈkoʊdər/）是一款面向真实软件开发的 Agentic 编码平台
 如果你直接在 Git 目录中编辑 Markdown 文件，系统会检测到 Git 内容与 Wiki 不一致。你可以点击 同步 将 Git 中的变更同步并更新 Wiki。</li>
 </ul>
 <h2 id="第二个是-quest-mode" tabindex="-1"><a class="header-anchor" href="#第二个是-quest-mode"><span>第二个是 Quest Mode</span></a></h2>
-<p><img src="@source/aitools/images/qoder1.png" alt="Quest Mode" title="Quest Mode" loading="lazy"><br>
+<p><img src="/assets/images/aitools/qoder1.png" alt="Quest Mode" title="Quest Mode" loading="lazy"><br>
 Quest Mode 是一项 AI 辅助的编程功能，专为复杂、长时运行的开发任务而设计。你只需用自然语言描述需求，便可将功能开发、缺陷修复、重构与测试等任务交给 AI 执行，从而大幅提升开发效率。</p>
 <p>Quest Mode 现已支持本地和远程两种执行模式，可以根据场景选择最符合你需求的选项。</p>
 <h3 id="quest-mode关键特性" tabindex="-1"><a class="header-anchor" href="#quest-mode关键特性"><span>Quest Mode关键特性</span></a></h3>

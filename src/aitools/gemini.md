@@ -7,7 +7,7 @@ category:
 tag:
   - AI
   - 工具
-cover: /aitools/images/gemini.png
+cover: /assets/images/aitools/gemini.png
 ---
 
 # Gemini CLI 完整使用教程
