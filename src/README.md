@@ -3,7 +3,8 @@ home: true
 layout: Blog
 icon: house
 title: 博客主页
-heroImage: .vuepress/public/assets/images/logo.png
+heroImage: /assets/images/logo.png
+bgImage: /assets/images/bg.png
 heroText: 王海洋的博客
 heroFullScreen: true
 tagline: 曾经阔气的要复古，正在阔气的要保持现状，未曾阔气的要革新，大抵如此，大抵。 --鲁迅
