@@ -1,4 +1,0 @@
-User-agent:*
-Disallow:
-
-Sitemap: https://kinghy949.github.io/kinghy-blog/sitemap.xml
