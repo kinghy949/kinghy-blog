@@ -152,13 +152,12 @@ gemini -p "解释一下什么是 REST API"
 ### 1. 终端命令行参数 (Shell Arguments)
 这些命令直接在你的系统终端（Terminal/PowerShell）中执行。
 
-| 命令/参数 | 简写 | 功能描述 | 示例 |
-|-----------|------|----------|------|
-| `gemini` | - | **启动交互模式**。进入持续对话的 REPL 界面。 | `gemini` |
+| 命令/参数           | 简写   | 功能描述 | 示例 |
+|-----------------|------|----------|------|
+| `gemini`        | -    | **启动交互模式**。进入持续对话的 REPL 界面。 | `gemini` |
 | `--prompt <text>` | `-p` | **单次提问模式**。不进入交互界面，直接输出答案并退出。 | `gemini -p "如何在 Python 中读取 JSON?"` |
-| `--version` | `-v` | 查看当前安装的 Gemini CLI 版本。 | `gemini --version` |
-| `--help` | `-h` | 显示 CLI 的帮助文档和所有可用参数。 | `gemini --help` |
-| `|` (管道符) | - | **标准输入流 (Stdin)**。将前一个命令的输出作为 Gemini 的上下文。 | `cat log.txt | gemini -p "分析错误"` |
+| `--version`     | `-v` | 查看当前安装的 Gemini CLI 版本。 | `gemini --version` |
+| `--help`        | `-h` | 显示 CLI 的帮助文档和所有可用参数。 | `gemini --help` |
 
 ### 2. 交互模式指令 (REPL Commands)
 这些命令仅在进入 `gemini` 交互界面后使用（输入时通常有自动补全）。
